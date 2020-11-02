@@ -3,7 +3,7 @@
 ## An efficient method of exception handling in a Springboot Microservice
 This sample Springboot Microservice project demonstrates an objected oriented approach to define
 and handle exceptions efficiently with few lines of code. Using this approach would reduce the source code by 100s of 
-lines which as compared a typical exception handling method used in a service.
+lines as compared a typical exception handling method used in a service.
 #### Benefits
 - Less code
 - Less test cases and code coverage.
