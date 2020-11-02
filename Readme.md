@@ -3,7 +3,7 @@
 ## An efficient method of exception handling in a Springboot Microservice
 This sample Springboot Microservice project demonstrates an objected oriented approach to define
 and handle exceptions efficiently with few lines of code. Using this approach would reduce the source code by 100s of 
-lines as compared a typical exception handling method used in a service.
+lines as compared to a typical exception handling method used in a service.
 #### Benefits
 - Less code
 - Less test cases and code coverage.
@@ -12,11 +12,11 @@ lines as compared a typical exception handling method used in a service.
 - Single point for logging the exceptions.
 
 ### A Typical Exception Handling Method
-A typical exception handling scenario in a controller based service/microservice is, in every
-service endpoint,
-- Either define a separate catch for every exception or overload catch
+A typical exception handling scenario in a controller based service/microservice is that, gnerally, in every
+service endpoint we do the following,
+- Either define a separate catch for every exception or an overloaded catch
 with common exceptions like catch(Exception1 | Exception2)
-- Catch unhandled exception.
+- Catch unhandled exception separately.
 - Log every exception separately.
 
 For example:
